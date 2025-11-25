@@ -7,7 +7,7 @@ describe("McDonald Order Controller", () =>
 
     beforeEach(() => 
     {
-        mcd = new OrderController();
+        mcd = new OrderController(false);
     });
 
     test("VIP orders go before normal orders", () => 

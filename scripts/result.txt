@@ -1,25 +1,27 @@
 McDonald's Order Management System - Simulation Results
 
-[23:05:03] System initialized with 0
-[23:05:03] Added Bot #1
-[23:05:03] New Order NORMAL#001 - Status: PENDING
-[23:05:03] Bot #1 started Order NORMAL#001 Status: PROCESSING
-[23:05:03] New Order VIP#002 - Status: PENDING
-[23:05:03] New Order NORMAL#003 - Status: PENDING
-[23:05:03] New Order VIP#004 - Status: PENDING
-[23:05:03] Added Bot #2
-[23:05:03] Bot #2 started Order VIP#002 Status: PROCESSING
-[23:05:03] New Order NORMAL#005 - Status: PENDING
-[23:05:03] Bot #2 removed — Returning Order VIP#002
-[23:05:13] Order NORMAL#001 - Status: COMPLETED
-[23:05:13] Bot #1 started Order VIP#004 Status: PROCESSING
-[23:05:23] Order VIP#004 - Status: COMPLETED
-[23:05:23] Bot #1 started Order VIP#002 Status: PROCESSING
-[23:05:33] Order VIP#002 - Status: COMPLETED
-[23:05:33] Bot #1 started Order NORMAL#003 Status: PROCESSING
-[23:05:43] Order NORMAL#003 - Status: COMPLETED
-[23:05:43] Bot #1 started Order NORMAL#005 Status: PROCESSING
-[23:05:53] Order NORMAL#005 - Status: COMPLETED
+[08:28:27] System initialized with 0
+[08:28:27] Added Bot #1
+[08:28:27] Bot 1 is now IDLE - pending orders: 0
+[08:28:27] New Order NORMAL#001 - Status: PENDING
+[08:28:27] Bot #1 started Order NORMAL#001 Status: PROCESSING
+[08:28:27] New Order VIP#002 - Status: PENDING
+[08:28:27] New Order NORMAL#003 - Status: PENDING
+[08:28:27] New Order VIP#004 - Status: PENDING
+[08:28:27] Added Bot #2
+[08:28:27] Bot #2 started Order VIP#002 Status: PROCESSING
+[08:28:27] New Order NORMAL#005 - Status: PENDING
+[08:28:27] Bot #2 destroyed - Returning Order VIP#002
+[08:28:37] Order NORMAL#001 - Status: COMPLETED (Processing Time: 10.00s)
+[08:28:37] Bot #1 started Order VIP#004 Status: PROCESSING
+[08:28:47] Order VIP#004 - Status: COMPLETED (Processing Time: 10.00s)
+[08:28:47] Bot #1 started Order VIP#002 Status: PROCESSING
+[08:28:57] Order VIP#002 - Status: COMPLETED (Processing Time: 10.02s)
+[08:28:57] Bot #1 started Order NORMAL#003 Status: PROCESSING
+[08:29:07] Order NORMAL#003 - Status: COMPLETED (Processing Time: 10.01s)
+[08:29:07] Bot #1 started Order NORMAL#005 Status: PROCESSING
+[08:29:17] Order NORMAL#005 - Status: COMPLETED (Processing Time: 10.00s)
+[08:29:17] Bot 1 is now IDLE - pending orders: 0
 
 Final Status:
 - Total Orders Processed: 5 (2 VIP, 3 Normal)
